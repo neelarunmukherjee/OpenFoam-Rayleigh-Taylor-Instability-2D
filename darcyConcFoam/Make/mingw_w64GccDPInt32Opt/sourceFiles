@@ -1,0 +1,3 @@
+SOURCE = \
+darcyConcFoam.C \
+version_of_build.rc

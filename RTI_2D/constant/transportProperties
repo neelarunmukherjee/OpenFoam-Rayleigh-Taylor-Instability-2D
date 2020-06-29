@@ -1,0 +1,28 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5                                     |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      transportProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+Dc              Dc [0 0 0 0 0 0 0] 0.001; // Ra^-1              Dp [0 0 0 0 0 0 0] 0.001;
+k				k [0 0 0 0 0 0 0] 1.0; // 
+mu				mu [0 0 0 0 0 0 0] 1.0; // 
+c0				c0 [0 0 0 0 0 0 0] 1.0;
+del_rho 		del_rho [0 0 0 0 0 0 0] 1;
+a              	a [0 0 0 0 0 0 0] 0.1   // (alphaT*Uref)/(phi*Dm)    alphaT = 0.1/Ra
+S            	S [0 0 0 0 0 0 0] 1;
+delS          	delS [0 0 0 0 0 0 0] 0.000000000001;
+
+
+// ************************************************************************* //

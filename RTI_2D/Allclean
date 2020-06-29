@@ -1,0 +1,2 @@
+foamListTimes -rm 
+rm -rf log*
